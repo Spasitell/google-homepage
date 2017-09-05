@@ -1,3 +1,36 @@
 * {
-  font: Arial, "Times New Roman";
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+}
+
+.horni_bar {
+  float: right;
+}
+
+#logo {
+  width: 30%;
+  margin: 0;
+  position: absolute;
+  top: 20%;
+  left: 35%;
+}
+
+.spodni_bar {
+  width: 98%;
+  position: absolute;
+  top: 95%;
+}
+
+.spodni_bar_levy {
+  float:left;
+}
+
+.spodni_bar_pravy {
+  float: right;
+}
+
+.vyhledavani {
+  position: absolute;
+  top: 50%;
+  left: 40%;
 }
