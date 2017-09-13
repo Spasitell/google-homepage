@@ -1,0 +1,186 @@
+a {
+  color: blue;
+}
+
+.link {
+  color: green;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+.top_bar form {
+  display: inline;
+  position: relative;
+  top: 50%;
+  left: -10%;
+}
+
+.top_bar {
+  position: relative;
+  width: 100%;
+  height: 18%;
+  top: 0;
+  left: 0;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px solid rgb(227, 227, 227);
+}
+
+.title {
+  font-size: 140%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+#extra {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.search form {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#logo {
+  position: absolute;
+  height: 2em;
+  width: 2em;
+  top: 0;
+  left: 0;
+}
+
+.seach {
+  position: relative;
+  height: 70%;
+  width: 70;
+  top: 0;
+  left: 0;
+}
+
+.bottom_bar {
+  position: relative;
+  top: 1%;
+  height: 10%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  padding-top: 1%;
+  border-top: 1px solid rgb(227, 227, 227);
+}
+
+.form {
+  position: absolute;
+  left: 15%;
+  top: 10%;
+}
+
+.under_form {
+  position: absolute;
+  left: 11%;
+  top: 70%;
+}
+
+.bottom_right {
+    margin-left: 2em;
+}
+
+.text {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.right_top {
+  position: absolute;
+  top: 10%;
+  left: 90%;
+  margin-left: 1em;
+}
+
+#number_of_results {
+  margin-top: 0;
+  margin-bottom: 2em;
+}
+
+.result {
+  margin-bottom: 2em;
+}
+
+.top_bar, .bottom_bar {
+  background-color: rgb(242, 242, 242);
+  padding-left: 11%;
+  line-height: 2em;
+}
+.results {
+  position: relative;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  left: 11%;
+  top: 1%;
+  margin-bottom: 2%;
+}
+
+#position {
+  display: inline;
+}
+
+.more_pages {
+  position: relative;
+  left: 20%;
+}
+
+.more_pages a {
+  margin-right: 0.3em;
+}
+
+#next_page {
+  margin-left: 2.4em;
+}
+
+.bottom_links {
+  margin-right: 2em;
+}
+
+* {
+  text-decoration: none;
+}
+
+.top_bar_links {
+
+}
+
+.search {
+  position: relative;
+  width: 90%;
+  margin: 0;
+  padding: 0;
+}
+
+.search form {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+.extra_links {
+  margin-right: 0.5em;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.bottom_bar a, .top_bar a {
+  color: rgb(34, 34, 34);
+}
