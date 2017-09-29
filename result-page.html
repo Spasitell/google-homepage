@@ -2,32 +2,44 @@
 <html>
   <head>
     <title>build this webpage - Hledat Googlem</title>
-    <link rel="shortcut icon" href="tittle-icon-for-result-page.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="tittle-icon.ico" type="image/x-icon" />
     <link href="result-page.css" type="text/css" rel="stylesheet">
   </head>
   <body>
-    <div class="top_bar">
-    <div class="search">
-      <a href="www.google.com"><img id="logo" src="https://lh3.googleusercontent.com/0-BzaWtxoAnsBjQ_wzUcKxyF07XE7v2Kkg1ogPVUdzmQpvaz118uHQEGU6BdtzJuzfo=h1264"/></a>
-      <form>
-        <input type="text">
-        <input type="submit">
-      </form>
+    <div class="row top_bar">
+      <div class="col-1 logo">
+        <a href="www.google.com"><img id="logo" src="https://lh3.googleusercontent.com/0-BzaWtxoAnsBjQ_wzUcKxyF07XE7v2Kkg1ogPVUdzmQpvaz118uHQEGU6BdtzJuzfo=h1264" alt="google logo" /></a>
+      </div>
+      <div class="col-6 search">
+        <form>
+          <input id="search_bar" type="text">
+          <input type="submit">
+        </form>
+      </div>
+      <div class="col-2 google_links">
+        <a href="#">Aplikace Google</a>
+        <a href="#">Přihlášení</a>
+      </div>
+      <div class="col-6 links">
+        <div class="col-5 top_left_links">
+          <a href="#">Vše</a>
+          <a href="#">Obrázky</a>
+          <a href="#">Videa</a>
+          <a href="#">Mapy</a>
+          <a href="#">Zprávy</a>
+          <a href="#">Více</a>
+        </div>
+        <div class="col-2 top_right_links">
+          <a href="#">Nastavení</a>
+          <a href="#">Nástroje</a>
+        </div>
+      </div>
     </div>
-      <a class="right_top" href="#">Aplikace Google</a>
-      <a class="right_top" href="#">Přihlášení</a>
-      <a class="under_form" href="#">Vše</a>
-      <a class="under_form" href="#">Obrázky</a>
-      <a class="under_form" href="#">Videa</a>
-      <a class="under_form" href="#">Mapy</a>
-      <a class="under_form" href="#">Zprávy</a>
-      <a class="under_form" href="#">Více</a>
-      <a class="under_form bottom_right" href="#">Nastavení</a>
-      <a class="under_form bottom_right" href="#">Nástroje</a>
-    </div>
-    <div class="results">
-      <p id="number_of_results">Přibližný počet výsledků: 2 450 000 (0,50 s)</p>
-      <div class="result">
+    <div class="row results">
+      <div class="col-6 numba_results">
+        <p>Přibližný počet výsledků: 2 450 000 (0,50 s)</p>
+      </div>
+      <div class="col-6 result">
         <a class="title" href="#">Build a Website for Free - Create a stunning Site for Free - wix.com</a><br>
         <a class="link" href="#">www.wix.com/build-website-for-free</a>
         <p id="extra">Easy to use, Build a Website Online</p>
@@ -38,27 +50,27 @@ Services: App Market, SEO Wizard, Mailboxes, Blog, Online Stores</p>
         <a class="extra_links" href="#">Free Webiste Builder</a>
         <a class="extra_links" href="#">Free Hosting</a>
       </div>
-      <div class="result">
+      <div class="col-6 result">
         <a class="title" href="#">With zero coding experience, artist building 180 webpages in 180 days</a><br>
         <a class="link" href="#">https://arstechnica.com/.../with-zero-coding-experience-artist-buil...</a>
-        <p class="text">26. 7. 2013 - One of Jennifer Dewalt's creations, this webpage lets visitors create paintings in ... Build<br> a different website every day for 180 consecutive days.</p>
+        <p class="text">26. 7. 2013 - One of Jennifer Dewalt's creations, this webpage lets visitors create paintings in ... Build a different website every day for 180 consecutive days.</p>
       </div>
-      <div class="result">
+      <div class="col-6 result">
         <a class="title" href="#">Google Homepage</a><br>
         <a class="link" href="#">swatikumar16.github.io/google-homepage/</a>
-        <p class="text">Jul 26, 2013 - 117 days ago, having never done any programming in her life, Jennifer Dewalt built her <br>first webpage. The next day, she built another, and she .</p>
+        <p class="text">Jul 26, 2013 - 117 days ago, having never done any programming in her life, Jennifer Dewalt built her first webpage. The next day, she built another, and she .</p>
       </div>
-      <div class="result">
+      <div class="col-6 result">
         <a class="title" href="#">build this webpage - Google Search</a><br>
         <a class="link" href="#">https://aryavansh.github.io/googleresults/</a>
-        <p class="text">117 days ago, having never done any programming in her life, Jennifer Dewalt built her first webpage.<br> The next day, she built another, and she ... I'm learning to ..</p>
+        <p class="text">117 days ago, having never done any programming in her life, Jennifer Dewalt built her first webpage. The next day, she built another, and she ... I'm learning to ..</p>
       </div>
-      <div class="result">
+      <div class="col-6 result">
         <a class="title" href="#">I'm learning to code by building 180 websites in 180 ... - Jennifer Dewalt</a><br>
         <a class="link" href="#">blog.jenniferdewalt.com/.../im-learning-to-code-by-building-180-...</a>
-        <p class="text">24. 7. 2013 - Build a different website every day for 180 consecutive days. Every website must be <br>accompanied by a blog post. Any code I write must be ..</p>
+        <p class="text">24. 7. 2013 - Build a different website every day for 180 consecutive days. Every website must be accompanied by a blog post. Any code I write must be ..</p>
       </div>
-      <div class="result">
+      <div class="col-6 result">
         <a class="title" href="#">BuiltWith Technology Lookup</a><br>
         <a class="link" href="#">https://builtwith.com/</a>
         <p class="text">Web technology information profiler tool. Find out what a website is built with.</p>
@@ -67,7 +79,7 @@ Services: App Market, SEO Wizard, Mailboxes, Blog, Online Stores</p>
         <a class="extra_links" href="#">BuiltWith Trends</a>
         <a class="extra_links" href="#">Create a free Lead List</a>
       </div>
-      <div class="more_pages">
+      <div class="col-4 more_pages">
         <a href="#">‎1</a>
         <a href="#">2</a>
         <a href="#">3</a>
@@ -81,13 +93,19 @@ Services: App Market, SEO Wizard, Mailboxes, Blog, Online Stores</p>
         <a id="next_page"href="#">Další</a>
       </div>
     </div>
-    <div class="bottom_bar">
-      <p id="position">Tampere - Z internetové adresy -</p><a style="margin-left: 0.6em;" href="#">Použít přesnou adresu</a><a style="margin-left: 0.6em;" href="#">Další informace</a><br>
-      <a class="bottom_links" href="#">‎Nápověda</a>
-      <a class="bottom_links" href="#">Odeslat zpětnou vazbu</a>
-      <a class="bottom_links" href="#">Ochrana soukromí</a>
-      <a class="bottom_links" href="#">Smluvní podmínky</a>
-      <a class="bottom_links" href="#">Použít Google.com</a>
+    <div class="row bottom_bar">
+      <div class="col-4 location">
+        <p>Tampere - Z internetové adresy -</p>
+        <a style="margin-left: 0.6em;" href="#">Použít přesnou adresu</a>
+        <a style="margin-left: 0.6em;" href="#">Další informace</a>
+      </div>
+      <div class="col-6 other_bottom_links">
+        <a href="#">‎Nápověda</a>
+        <a href="#">Odeslat zpětnou vazbu</a>
+        <a href="#">Ochrana soukromí</a>
+        <a href="#">Smluvní podmínky</a>
+        <a href="#">Použít Google.com</a>
+      </div>
     </div>
   </body>
 </html>
