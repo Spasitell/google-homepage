@@ -1,37 +1,43 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title id="tittle">Google</title>
-    <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+    <title>Google</title>
+    <link rel="shortcut icon" href="tittle-icon.ico" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded" rel="stylesheet">
     <link href="main-page.css" type="text/css" rel="stylesheet">
   </head>
   <body>
-    <div class="horni_bar">
+    <div class="col-3 top_links">
       <a href="#">Gmail</a>
-      <a href="#">Obrazky</a>
-      <a href="#">Aplikace Google</a>
-      <a href="#">Přihlásit se</a>
+      <a href="#">Obrázky</a>
+      <a href="#">Aplikace</a>
+      <a href="#">Přihlášení</a>
     </div>
-    <div class="logo">
-      <a href="www.google.cz"><img id="logo" src="http://www.adam.cz/img/201611222117_google-cz-640x360.jpg"/></a>
+    <div class="col-5 logo">
+      <img id="logo" src="http://www.adam.cz/img/201611222117_google-cz-640x360.jpg" alt="logo Google"/>
     </div>
-    <div class="vyhledavani">
+    <div class="col-6 search_bar">
       <form>
-        <input type="text" name="vyhledej">
+        <input id="search" type="text">
       </form>
+    </div>
+    <div class="col-4 submit">
       <form>
         <input type="submit" value="Hledat Googlem">
         <input type="submit" value="Zkusím štěstí">
       </form>
-      <p>Google.cz v jazycích: <a id="jazyky" href="www.google.com">English</a></p>
     </div>
-    <div class="spodni_bar">
-      <a class="spodni_bar_levy" href="#">Reklama</a>
-      <a class="spodni_bar_levy" href="#">Firma</a>
-      <a class="spodni_bar_levy" href="#">O společnosti Google</a>
-      <a class="spodni_bar_pravy" href="#">Ochrana soukromí</a>
-      <a class="spodni_bar_pravy" href="#">Smluvní podmínky</a>
-      <a class="spodni_bar_pravy" href="#">Nastavení</a>
+    <div class="row bottom_bar">
+      <div class="col-4 bottom_left">
+        <a href="#">Reklama</a>
+        <a href="#">Firma</a>
+        <a href="#">O Společnosti Google</a>
+      </div>
+      <div class="col-4 bottom_right">
+        <a href="#">Ochrana soukromí</a>
+        <a href="#">Smluvní podmínky</a>
+        <a href="#">Nastavení</a>
+      </div>
     </div>
   </body>
 </html>

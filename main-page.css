@@ -1,36 +1,122 @@
-* {
-  font-family: 'Roboto', sans-serif;
-  text-decoration: none;
+html, body {
+  margin: 0;
+  border: 0;
+  height: 100%;
+  width: 100%;
 }
 
-.horni_bar {
+* {
+  font-family: arial, sans-serif;
+}
+
+a {
+  color: rgb(34, 34, 34);
+  font-size: 14px;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.row {
+  width: 100%;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 24.99%;
+}
+
+.col-4 {
+  width: 33.32%;
+}
+
+.col-5 {
+  width: 41.65%;
+}
+
+.col-6 {
+  width: 49.98%;
+}
+
+.col-7 {
+  width: 58.31%;
+}
+
+.col-8 {
+  width: 66.64%;
+}
+
+.col-9 {
+  width: 74.97%;
+}
+
+.col-10 {
+  width: 83.3%;
+}
+
+.col-11 {
+  width: 91.63;
+}
+
+.bottom_left {
+  float: left;
+  margin-top: 5px;
+}
+
+.bottom_right {
   float: right;
+}
+
+.bottom_bar {
+  position: relative;
+  top: 50%;
+  border-top: 1px solid rgb(227, 227, 227);
+  background-color: rgb(242, 242, 242);
+}
+
+.logo {
+  position: relative;
+  left: 35%;
+  top: 15%;
+}
+
+.top_links {
+  float: right;
+}
+
+.search_bar {
+  position: relative;
+  left: 32%;
+  top: 12%;
+}
+
+.submit {
+  position: relative;
+  top: 16%;
+  left: 39%;
+}
+
+.bottom_right a, .top_links a {
+  float: right;
+}
+
+.submit input {
+  width: 30%;
+  height: 33px;
 }
 
 #logo {
-  width: 30%;
-  margin: 0;
-  position: absolute;
-  top: 20%;
-  left: 35%;
+  width: 75%;
+  height: 100%;
 }
 
-.spodni_bar {
-  width: 98%;
-  position: absolute;
-  top: 95%;
-}
-
-.spodni_bar_levy {
-  float:left;
-}
-
-.spodni_bar_pravy {
-  float: right;
-}
-
-.vyhledavani {
-  position: absolute;
-  top: 50%;
-  left: 40%;
+#search {
+  width: 70%;
+  height: 30%;
 }
